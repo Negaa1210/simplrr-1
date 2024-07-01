@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// Sample data for properties
+
 const initialProperties = [
   {
     id: 1,
