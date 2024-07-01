@@ -1,62 +1,94 @@
-body {
+.App {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f0f0f0;
-}
-
-.navbar {
-  background-color: #ff5a5f;
-  padding: 10px;
   text-align: center;
 }
 
-.nav-link {
+.App-header {
+  background-color: #ff5a5f;
+  padding: 20px;
   color: white;
-  margin: 0 10px;
-  text-decoration: none;
-  font-weight: bold;
 }
 
-.property-list, .liked-properties {
+.App-logo {
+  height: 40vmin;
+}
+
+.App-main {
   padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #ff5a5f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.property-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .property-item {
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
   margin: 10px;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
+  width: 200px;
+  text-align: left;
 }
 
-.property-item h2 {
-  margin: 0;
-  font-size: 20px;
-}
-
-.property-item p {
-  color: #555;
+.property-item img {
+  width: 100%;
+  border-radius: 5px;
 }
 
 .property-item button {
-  background-color: #ff5a5f;
-  color: white;
+  margin-top: 10px;
+  padding: 10px 15px;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
 }
 
-.property-item button:hover {
-  background-color: #e24e50;
+.property-item button:first-of-type {
+  background-color: #ff5a5f;
+  color: white;
 }
+
+.property-item button:last-of-type {
+  background-color: #00a699;
+  color: white;
+}
+
+.App-footer {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.App-footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.App-footer li {
+  margin: 5px 0;
+}
+
 
 
 
