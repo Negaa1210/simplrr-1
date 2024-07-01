@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #ff5a5f;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.property-list, .liked-properties {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.property-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.property-item h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.property-item p {
+  color: #555;
+}
+
+.property-item button {
+  background-color: #ff5a5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.property-item button:hover {
+  background-color: #e24e50;
+}
+
+
+
